@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Xarlo Xrpl</title>
+	<meta name="robots" content="max-image-preview:large">
+	<style>
+		img:is([sizes="auto" i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+	</style>
+
+
+
+	<link rel="stylesheet" id="hfe-widgets-style-css" href="css/frontend.css" media="all">
+	<style id="wp-emoji-styles-inline-css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<style id="classic-theme-styles-inline-css">
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id="global-styles-inline-css">
+		:root {
+			--wp--preset--aspect-ratio--square: 1;
+			--wp--preset--aspect-ratio--4-3: 4/3;
+			--wp--preset--aspect-ratio--3-4: 3/4;
+			--wp--preset--aspect-ratio--3-2: 3/2;
+			--wp--preset--aspect-ratio--2-3: 2/3;
+			--wp--preset--aspect-ratio--16-9: 16/9;
+			--wp--preset--aspect-ratio--9-16: 9/16;
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		.is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.is-layout-flex> :is(*, div) {
+			margin: 0;
+		}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		.is-layout-grid> :is(*, div) {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:root :where(.wp-block-pullquote) {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel="stylesheet" id="uaf_client_css-css" href="css/uaf.css" media="all">
+	<link rel="stylesheet" id="hfe-style-css" href="css/header-footer-elementor.css" media="all">
+	<link rel="stylesheet" id="elementor-frontend-css" href="css/frontend.min.css" media="all">
+	<link rel="stylesheet" id="swiper-css" href="css/swiper.min.css" media="all">
+	<link rel="stylesheet" id="e-swiper-css" href="css/e-swiper.min.css" media="all">
+	<link rel="stylesheet" id="elementor-post-6-css" href="css/post-6.css" media="all">
+	<link rel="stylesheet" id="widget-image-css" href="css/widget-image.min.css" media="all">
+	<link rel="stylesheet" id="widget-heading-css" href="css/widget-heading.min.css" media="all">
+	<link rel="stylesheet" id="widget-text-editor-css" href="css/widget-text-editor.min.css" media="all">
+	<link rel="stylesheet" id="widget-image-carousel-css" href="css/widget-image-carousel.min.css" media="all">
+	<link rel="stylesheet" id="elementor-post-944-css" href="css/post-944.css" media="all">
+	<link rel="stylesheet" id="elementor-post-36-css" href="css/post-36.css" media="all">
+	<link rel="stylesheet" id="elementor-post-56-css" href="css/post-56.css" media="all">
+	<link rel="stylesheet" id="hello-elementor-css" href="css/style.min.css" media="all">
+	<link rel="stylesheet" id="hello-elementor-theme-style-css" href="css/theme.min.css" media="all">
+	<link rel="stylesheet" id="hello-elementor-header-footer-css" href="css/header-footer.min.css" media="all">
+	<link rel="stylesheet" id="hfe-icons-list-css" href="css/widget-icon-list.min.css" media="all">
+	<link rel="stylesheet" id="hfe-social-icons-css" href="css/widget-social-icons.min.css" media="all">
+	<link rel="stylesheet" id="hfe-social-share-icons-brands-css" href="css/brands.css" media="all">
+	<link rel="stylesheet" id="hfe-social-share-icons-fontawesome-css" href="css/fontawesome.css" media="all">
+	<link rel="stylesheet" id="hfe-nav-menu-icons-css" href="css/solid.css" media="all">
+	<link rel="stylesheet" id="google-fonts-1-css" href="css/css.css" media="all">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script src="js/jquery.min.js" id="jquery-core-js"></script>
+	<script src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+
+	<meta name="generator" content="WordPress 6.7.1">
+
+
+	<!-- start Simple Custom CSS and JS -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var scrollingText = document.querySelector('.scrolling-text .elementor-heading-title');
+			if (scrollingText) {
+				scrollingText.setAttribute('data-content', scrollingText.innerHTML);
+			}
+		});</script>
+	<!-- end Simple Custom CSS and JS -->
+	<!-- start Simple Custom CSS and JS -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const copyAddress = document.querySelector('.copy-address');
+			const addressToCopy = 'rE7V5dJeN8qeDdtCamEv9RXxZNnAc246XC';
+			const container = document.getElementById('contract');
+			const originalColor = '#FFF0AB';
+			const darkColor = '#FDD202';
+
+			if (copyAddress) {
+				copyAddress.style.cursor = 'pointer';
+				copyAddress.addEventListener('click', function () {
+					navigator.clipboard.writeText(addressToCopy);
+
+					container.style.transition = 'background-color 0.5s ease';
+					container.style.backgroundColor = darkColor;
+
+					setTimeout(function () {
+						container.style.backgroundColor = originalColor;
+					}, 1000);
+				});
+			}
+		});
+	</script>
+	<!-- end Simple Custom CSS and JS -->
+	<!-- start Simple Custom CSS and JS -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const prevArrow = document.querySelector('.custom-prev-arrow');
+			const nextArrow = document.querySelector('.custom-next-arrow');
+			const carousel = document.querySelector('.gallery .elementor-image-carousel-wrapper');
+
+			if (prevArrow && nextArrow && carousel) {
+				prevArrow.style.cursor = 'pointer';
+				nextArrow.style.cursor = 'pointer';
+
+				const initCarousel = function () {
+					const swiperInstance = jQuery(carousel).data('swiper');
+
+					if (swiperInstance) {
+						prevArrow.addEventListener('click', function (e) {
+							e.preventDefault();
+							swiperInstance.slidePrev();
+						});
+						nextArrow.addEventListener('click', function (e) {
+							e.preventDefault();
+							swiperInstance.slideNext();
+						});
+					} else {
+						setTimeout(initCarousel, 100);
+					}
+				};
+
+				initCarousel();
+
+				jQuery(window).on('elementor/frontend/init', function () {
+					initCarousel();
+				});
+			}
+		});</script>
+	<!-- end Simple Custom CSS and JS -->
+	<!-- start Simple Custom CSS and JS -->
+	<style>
+		.scrolling-text {
+			white-space: nowrap;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.scrolling-text .elementor-heading-title {
+			display: inline-block;
+			padding-left: 0;
+			animation: scroll 20s linear infinite;
+		}
+
+		@keyframes scroll {
+			0% {
+				transform: translate(0, 0);
+			}
+
+			100% {
+				transform: translate(-50%, 0);
+			}
+		}
+
+		.scrolling-text .elementor-heading-title::after {
+			content: attr(data-content);
+			padding-left: 50px;
+		}
+	</style>
+	<!-- end Simple Custom CSS and JS -->
+	<!-- start Simple Custom CSS and JS -->
+	<style>
+		.add-stroke {
+			color: white;
+			-webkit-text-stroke: 1px black;
+			text-shadow:
+				0 6px 0 black,
+				-2px -2px 0 black,
+				2px -2px 0 black,
+				-2px 2px 0 black,
+				2px 2px 0 black,
+				-2px 4px 0 black,
+				2px 4px 0 black,
+				-2px 8px 0 black,
+				2px 8px 0 black;
+		}
+	</style>
+	<!-- end Simple Custom CSS and JS -->
+	<!-- start Simple Custom CSS and JS -->
+	<style>
+		html,
+		body {
+			overflow-x: hidden;
+		}
+
+		.main {
+			margin: -100px auto;
+		}
+	</style>
+	<!-- end Simple Custom CSS and JS -->
+	<meta name="description"
+		content="Meet Xarlo, the dog with a pink asshole. Clinically insane? You bet. But that&#039;s what makes him a legend at flipping profits.">
+	<meta name="generator"
+		content="Elementor 3.25.6; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+	<style>
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+	</style>
+	<link rel="icon" href="images/cropped-favicon-32x32.png" sizes="32x32">
+	<link rel="icon" href="images/cropped-favicon-192x192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="images/cropped-favicon-180x180.png">
+	<meta name="msapplication-TileImage"
+		content="https://carlo.dog/wp-content/uploads/2024/07/cropped-favicon-270x270.png">
+</head>
+
+<body
+	class="home page-template page-template-elementor_header_footer page page-id-944 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-944">
+	<div id="page" class="hfeed site">
+
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="" title="Xarlo" rel="home">Xarlo</a></p>
+			<div data-elementor-type="wp-post" data-elementor-id="36" class="elementor elementor-36">
+				<div class="elementor-element elementor-element-a4af850 e-con-full e-flex e-con e-parent"
+					data-id="a4af850" data-element_type="container">
+					<div class="elementor-element elementor-element-7eb0617 e-con-full e-flex e-con e-child"
+						data-id="7eb0617" data-element_type="container"
+						data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-element elementor-element-830ffef e-con-full elementor-hidden-mobile e-flex e-con e-child"
+							data-id="830ffef" data-element_type="container">
+							<div class="elementor-element elementor-element-4aae3ab e-transform elementor-widget elementor-widget-image"
+								data-id="4aae3ab" data-element_type="widget"
+								data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<a href="/home">
+										<img fetchpriority="high" width="800" height="318"
+											src="images/logo-1024x407.png"
+											class="attachment-large size-large wp-image-1217" alt
+											srcset="images/logo-1024x407.png 1024w, images/logo-300x119.png 300w, images/logo-768x306.png 768w, images/logo-1536x611.png 1536w, images/logo-2048x815.png 2048w"
+											sizes="(max-width: 800px) 100vw, 800px"> </a>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-b38d4e1 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child"
+							data-id="b38d4e1" data-element_type="container">
+							<div class="elementor-element elementor-element-f08d2fb add-stroke e-transform elementor-widget elementor-widget-heading"
+								data-id="f08d2fb" data-element_type="widget"
+								data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default"><a
+											href="/#about">ABOUT</a></h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-220e7aa add-stroke e-transform elementor-widget elementor-widget-heading"
+								data-id="220e7aa" data-element_type="widget"
+								data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default"><a
+											href="/#how-to-buy">HOW TO BUY</a></h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-16084ab add-stroke e-transform elementor-widget elementor-widget-heading"
+								data-id="16084ab" data-element_type="widget"
+								data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default"><a href="/game">GAME</a>
+									</h2>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-c78fe2b e-con-full e-flex e-con e-child"
+							data-id="c78fe2b" data-element_type="container">
+							<div class="elementor-element elementor-element-cdaae25 e-transform elementor-widget elementor-widget-image"
+								data-id="cdaae25" data-element_type="widget"
+								data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<a href="https://x.com/XALOR_XRPL" target="_blank">
+										<img width="55" height="57" src="images/header_icon_x.png"
+											class="attachment-large size-large wp-image-2380" alt> </a>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-0a3110a e-transform elementor-widget elementor-widget-image"
+								data-id="0a3110a" data-element_type="widget"
+								data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<a href="https://t.me/XARLOXRPL_Portal" target="_blank">
+										<img width="55" height="55" src="images/header_icon_telegram.png"
+											class="attachment-large size-large wp-image-2379" alt> </a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div data-elementor-type="wp-page" data-elementor-id="944" class="elementor elementor-944">
+			<div class="elementor-element elementor-element-dfd40c5 e-con-full main e-flex e-con e-parent"
+				data-id="dfd40c5" data-element_type="container">
+				<div class="elementor-element elementor-element-492149a e-con-full e-flex e-con e-child"
+					data-id="492149a" data-element_type="container"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-226e7ef elementor-hidden-tablet elementor-widget elementor-widget-image"
+						data-id="226e7ef" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img loading="lazy" decoding="async" width="800" height="318" src="images/xarlo.png"
+								class="attachment-large size-large wp-image-2411" alt
+								sizes="(max-width: 800px) 100vw, 800px">
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-ba7c25e e-con-full e-transform e-transform elementor-hidden-tablet e-flex e-con e-child"
+						data-id="ba7c25e" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+						<div class="elementor-element elementor-element-bb0f615 elementor-widget elementor-widget-image"
+							data-id="bb0f615" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://firstledger.net/token/rE7V5dJeN8qeDdtCamEv9RXxZNnAc246XC/5841524C4F000000000000000000000000000000"
+									target="_blank">
+									<img loading="lazy" decoding="async" width="451" height="120"
+										src="images/rectangle_2.png" class="attachment-large size-large wp-image-1451"
+										alt srcset="images/rectangle_2.png 451w, images/rectangle_2-300x80.png 300w"
+										sizes="(max-width: 451px) 100vw, 451px"> </a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-a91fb30 add-stroke e-transform elementor-widget elementor-widget-heading"
+							data-id="a91fb30" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default"><a
+										href="https://firstledger.net/token/rE7V5dJeN8qeDdtCamEv9RXxZNnAc246XC/5841524C4F000000000000000000000000000000"
+										target="_blank">BUY $XARLO</a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-68352b1 e-con-full e-flex e-con e-child"
+					data-id="68352b1" data-element_type="container"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-2bac8ad scrolling-text add-stroke elementor-widget elementor-widget-heading"
+						data-id="2bac8ad" data-element_type="widget" data-widget_type="heading.default">
+						<div class="elementor-widget-container">
+							<h2 class="elementor-heading-title elementor-size-default">$XARLO $XARLO $XARLO $XARLO
+								$XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO
+								$XARLO $XARLO $XARLO $XARLO</h2>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-40376ad e-con-full e-flex e-con e-child"
+					data-id="40376ad" data-element_type="container" id="about"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-5102184 elementor-widget elementor-widget-image"
+						data-id="5102184" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img loading="lazy" decoding="async" width="499" height="414" src="images/cloud.png"
+								class="attachment-large size-large wp-image-963" alt
+								srcset="images/cloud.png 499w, images/cloud-300x249.png 300w"
+								sizes="(max-width: 499px) 100vw, 499px">
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-293fa47 elementor-widget elementor-widget-image"
+						data-id="293fa47" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img loading="lazy" decoding="async" width="800" height="685" src="images/cloud_carlo.png"
+								class="attachment-large size-large wp-image-964" alt
+								srcset="images/cloud_carlo.png 848w, images/cloud_carlo-300x257.png 300w, images/cloud_carlo-768x658.png 768w"
+								sizes="(max-width: 800px) 100vw, 800px">
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-d570152 elementor-absolute elementor-widget elementor-widget-image"
+						data-id="d570152" data-element_type="widget"
+						data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;none&quot;}"
+						data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img loading="lazy" decoding="async" width="553" height="705" src="images/one_billion.png"
+								class="attachment-large size-large wp-image-962" alt
+								srcset="images/one_billion.png 553w, images/one_billion-235x300.png 235w"
+								sizes="(max-width: 553px) 100vw, 553px">
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-29aa97a e-con-full e-flex e-con e-child"
+						data-id="29aa97a" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-830fc2d e-con-full e-flex e-con e-child"
+							data-id="830fc2d" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-element elementor-element-b6b5283 elementor-widget elementor-widget-text-editor"
+								data-id="b6b5283" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p>Xarlo is a clinically insane dog with a pink a**hole. You bet. But that&#8217;s
+										what makes him a legend at flipping profits.</p>
+									<p>Now, he’s got his sights on dominating Xrpl&#8230; And he wants you in on the
+										scheme. Think of it as strapping into a decommissioned Soviet rollercoaster —
+										downright psychotic but man will you have a story to tell.</p>
+									<p>So if you’re game, better buckle up cause this dog&#8217;s about to drag his big
+										balls all over Xrpl.</p>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-c918b64 e-con-full e-flex e-con e-child"
+							data-id="c918b64" data-element_type="container"
+							data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+							<div class="elementor-element elementor-element-9032f98 elementor-widget elementor-widget-image"
+								data-id="9032f98" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img loading="lazy" decoding="async" width="329" height="103"
+										src="images/ractangle_5.png" class="attachment-large size-large wp-image-1458"
+										alt srcset="images/ractangle_5.png 329w, images/ractangle_5-300x94.png 300w"
+										sizes="(max-width: 329px) 100vw, 329px">
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-e76b6c5 add-stroke e-transform elementor-widget elementor-widget-heading"
+								data-id="e76b6c5" data-element_type="widget"
+								data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">ABOUT</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-2613b50 e-con-full e-flex e-con e-child"
+						data-id="2613b50" data-element_type="container"
+						data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-2444663 elementor-widget elementor-widget-text-editor"
+							data-id="2444663" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p>There are 1 Billion $XARLO tokens in circulation. No more. Maybe a bit less. We
+									burned quite a few in the TG.</p>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-78eeb70 e-con-full e-flex e-con e-child"
+							data-id="78eeb70" data-element_type="container" id="contract"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-element elementor-element-2a658f3 elementor-widget elementor-widget-text-editor"
+								data-id="2a658f3" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p><span class="framer-text"
+											style="--framer-font-size: 20px;">rE7V5dJeN8qeDdtCamEv9RXxZNnAc246XC</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-4ef727f e-con-full copy-address e-transform e-transform e-flex e-con e-child"
+							data-id="4ef727f" data-element_type="container"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+							<div class="elementor-element elementor-element-f25781f elementor-widget elementor-widget-image"
+								data-id="f25781f" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img loading="lazy" decoding="async" width="378" height="86"
+										src="images/rectangle_1.png" class="attachment-large size-large wp-image-1445"
+										alt srcset="images/rectangle_1.png 378w, images/rectangle_1-300x68.png 300w"
+										sizes="(max-width: 378px) 100vw, 378px">
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-cefd2fe add-stroke elementor-absolute e-transform elementor-widget elementor-widget-heading"
+								data-id="cefd2fe" data-element_type="widget"
+								data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">COPY ADDRESS</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-527059f e-con-full e-flex e-con e-child"
+					data-id="527059f" data-element_type="container"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-875dc0c e-con-full e-flex e-con e-child"
+						data-id="875dc0c" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-2be9ed6 elementor-widget elementor-widget-image"
+							data-id="2be9ed6" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="451" height="120"
+									src="images/rectangle_2.png" class="attachment-large size-large wp-image-1451" alt
+									srcset="images/rectangle_2.png 451w, images/rectangle_2-300x80.png 300w"
+									sizes="(max-width: 451px) 100vw, 451px">
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-4cf12bd add-stroke e-transform elementor-widget elementor-widget-heading"
+							data-id="4cf12bd" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">MEME GALLERY</h2>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-9e08edc e-con-full e-flex e-con e-child"
+						data-id="9e08edc" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-3fc9084 gallery elementor-widget elementor-widget-image-carousel"
+							data-id="3fc9084" data-element_type="widget"
+							data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;slides_to_show_tablet&quot;:&quot;3&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:70,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}"
+							data-widget_type="image-carousel.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+									<div class="elementor-image-carousel swiper-wrapper" aria-live="polite">
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="1 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_5.png"
+													alt="portrait_2"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="2 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_1.png"
+													alt="portrait_1"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="3 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_3.png"
+													alt="portrait_3"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="4 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_4.png"
+													alt="portrait_4"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="5 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_5.png"
+													alt="portrait_5"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="6 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_6.png"
+													alt="portrait_6"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="7 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_7.png"
+													alt="portrait_7"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="8 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_8.png"
+													alt="portrait_8"></figure>
+										</div>
+										<div class="swiper-slide" role="group" aria-roledescription="slide"
+											aria-label="9 of 9">
+											<figure class="swiper-slide-inner"><img decoding="async"
+													class="swiper-slide-image" src="images/portrait_9.png"
+													alt="portrait_9"></figure>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-5ea5769 e-con-full e-flex e-con e-child"
+							data-id="5ea5769" data-element_type="container">
+							<div class="elementor-element elementor-element-baa3a49 custom-prev-arrow e-transform e-transform elementor-widget elementor-widget-image"
+								data-id="baa3a49" data-element_type="widget"
+								data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img loading="lazy" decoding="async" width="100" height="100"
+										src="images/button_left.png" class="attachment-large size-large wp-image-1390"
+										alt>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-90c64ef custom-next-arrow e-transform e-transform elementor-widget elementor-widget-image"
+								data-id="90c64ef" data-element_type="widget"
+								data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img loading="lazy" decoding="async" width="100" height="100"
+										src="images/button_right.png" class="attachment-large size-large wp-image-1389"
+										alt>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-a2711b6 e-con-full e-flex e-con e-child"
+					data-id="a2711b6" data-element_type="container"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-bb3cc73 elementor-widget elementor-widget-image"
+						data-id="bb3cc73" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img loading="lazy" decoding="async" width="586" height="1024"
+								src="images/screen-586x1024.png" class="attachment-large size-large wp-image-947" alt
+								srcset="images/screen-586x1024.png 586w, images/screen-172x300.png 172w, images/screen.png 756w"
+								sizes="(max-width: 586px) 100vw, 586px">
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-b7f4c4c elementor-widget elementor-widget-image"
+						data-id="b7f4c4c" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img loading="lazy" decoding="async" width="596" height="1024"
+								src="images/video-596x1024.png" class="attachment-large size-large wp-image-950" alt
+								srcset="images/video-596x1024.png 596w, images/video-174x300.png 174w, images/video.png 638w"
+								sizes="(max-width: 596px) 100vw, 596px">
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-f8e35ca e-con-full elementor-hidden-mobile e-flex e-con e-child"
+						data-id="f8e35ca" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-6fde805 e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="6fde805" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://www.tiktok.com/" target="_blank">
+									<img loading="lazy" decoding="async" width="554" height="158"
+										src="images/tiktok_button-1.png"
+										class="attachment-large size-large wp-image-2130" alt
+										srcset="images/tiktok_button-1.png 554w, images/tiktok_button-1-300x86.png 300w"
+										sizes="(max-width: 554px) 100vw, 554px"> </a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-377113c e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="377113c" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://www.instagram.com/" target="_blank">
+									<img loading="lazy" decoding="async" width="554" height="158"
+										src="images/instagram_button-1.png"
+										class="attachment-large size-large wp-image-2129" alt
+										srcset="images/instagram_button-1.png 554w, images/instagram_button-1-300x86.png 300w"
+										sizes="(max-width: 554px) 100vw, 554px"> </a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-bed4604 e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="bed4604" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://t.me/XARLOXRPL_Portal" target="_blank">
+									<img loading="lazy" decoding="async" width="554" height="158"
+										src="images/telegram_button-1.png"
+										class="attachment-large size-large wp-image-2127" alt
+										srcset="images/telegram_button-1.png 554w, images/telegram_button-1-300x86.png 300w"
+										sizes="(max-width: 554px) 100vw, 554px"> </a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-2d8a412 e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="2d8a412" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://www.x.com" target="_blank">
+									<img loading="lazy" decoding="async" width="558" height="171"
+										src="images/youtube_button-1.png"
+										class="attachment-large size-large wp-image-2128" alt
+										srcset="images/youtube_button-1.png 558w, images/youtube_button-1-300x92.png 300w"
+										sizes="(max-width: 558px) 100vw, 558px"> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-e8ccd36 e-con-full e-flex e-con e-child"
+					data-id="e8ccd36" data-element_type="container"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-eb26cfa scrolling-text add-stroke elementor-widget elementor-widget-heading"
+						data-id="eb26cfa" data-element_type="widget" data-widget_type="heading.default">
+						<div class="elementor-widget-container">
+							<h2 class="elementor-heading-title elementor-size-default">$XARLO $XARLO $XARLO $XARLO
+								$XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO $XARLO
+								$XARLO $XARLO $XARLO $XARLO</h2>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-29aa0fd e-con-full e-flex e-con e-child"
+					data-id="29aa0fd" data-element_type="container" id="how-to-buy"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-8e2bcaf e-con-full e-flex e-con e-child"
+						data-id="8e2bcaf" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-4807586 elementor-widget elementor-widget-image"
+							data-id="4807586" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="451" height="120"
+									src="images/rectangle_2.png" class="attachment-large size-large wp-image-1451" alt
+									srcset="images/rectangle_2.png 451w, images/rectangle_2-300x80.png 300w"
+									sizes="(max-width: 451px) 100vw, 451px">
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-3c9c62a add-stroke e-transform elementor-widget elementor-widget-heading"
+							data-id="3c9c62a" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">HOW TO BUY</h2>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-b275e33 e-con-full e-flex e-con e-child"
+						data-id="b275e33" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-28d04b7 e-con-full e-flex e-con e-child"
+							data-id="28d04b7" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-element elementor-element-0ce225b elementor-widget elementor-widget-heading"
+								data-id="0ce225b" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">Connect With First Ledger
+									</h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-222e2aa elementor-widget elementor-widget-text-editor"
+								data-id="222e2aa" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p>Open the link to complete the sign in request from First Ledger in telegram.</p>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-4bec3f0 elementor-absolute elementor-widget elementor-widget-image"
+							data-id="4bec3f0" data-element_type="widget"
+							data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="100" height="100"
+									src="images/button_right.png" class="attachment-large size-large wp-image-1389" alt>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-65f51c2 elementor-absolute add-stroke elementor-widget elementor-widget-heading"
+							data-id="65f51c2" data-element_type="widget"
+							data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">1</h2>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-a69b5fd e-con-full e-flex e-con e-child"
+						data-id="a69b5fd" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-98e2f50 e-con-full e-flex e-con e-child"
+							data-id="98e2f50" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-element elementor-element-c9867b4 elementor-widget elementor-widget-heading"
+								data-id="c9867b4" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">FUND YOUR First Ledger
+										WALLET
+									</h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-bb9bbba elementor-widget elementor-widget-text-editor"
+								data-id="bb9bbba" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p>Transfer XRP from Coinbase, Binance, Bybit, or OKX to your First Ledger wallet.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-3b372d3 elementor-absolute elementor-widget elementor-widget-image"
+							data-id="3b372d3" data-element_type="widget"
+							data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="100" height="100"
+									src="images/button_right.png" class="attachment-large size-large wp-image-1389" alt>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-307ab76 elementor-absolute add-stroke elementor-widget elementor-widget-heading"
+							data-id="307ab76" data-element_type="widget"
+							data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">2</h2>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-a1043b1 e-con-full e-flex e-con e-child"
+						data-id="a1043b1" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-7659941 e-con-full e-flex e-con e-child"
+							data-id="7659941" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-element elementor-element-4ec1e74 elementor-widget elementor-widget-heading"
+								data-id="4ec1e74" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">SWAP TO $XARLO</h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-e613291 elementor-widget elementor-widget-text-editor"
+								data-id="e613291" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<ol>
+
+										<li>Visit First Ledger.</li>
+										<li>Enter amount XRP and click "Buy XARLO".</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-371a30f elementor-absolute elementor-widget elementor-widget-image"
+							data-id="371a30f" data-element_type="widget"
+							data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img loading="lazy" decoding="async" width="100" height="100"
+									src="images/button_right.png" class="attachment-large size-large wp-image-1389" alt>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-e0e082f elementor-absolute add-stroke elementor-widget elementor-widget-heading"
+							data-id="e0e082f" data-element_type="widget"
+							data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">3</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="background-image: unset;"
+					class="elementor-element elementor-element-e17db19 e-con-full e-flex e-con e-child"
+					data-id="e17db19" data-element_type="container"
+					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-element elementor-element-94a6536 e-con-full e-flex e-con e-child"
+						data-id="94a6536" data-element_type="container"
+						data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+						<div class="elementor-element elementor-element-87d7d78 e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="87d7d78" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://x.com/XALOR_XRPL" target="_blank">
+									<img loading="lazy" decoding="async" width="100" height="101"
+										src="images/x_icon.png" class="attachment-large size-large wp-image-1450" alt>
+								</a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-2db6d0e e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="2db6d0e" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://t.me/XARLOXRPL_Portal" target="_blank">
+									<img loading="lazy" decoding="async" width="100" height="101"
+										src="images/telegram_icon.png" class="attachment-large size-large wp-image-1449"
+										alt> </a>
+							</div>
+						</div>
+
+						<div class="elementor-element elementor-element-1bd3db2 e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="1bd3db2" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://coinmarketcap.com/" target="_blank">
+									<img loading="lazy" decoding="async" width="103" height="101"
+										src="images/coinmarketcap_icon.png"
+										class="attachment-large size-large wp-image-1447" alt> </a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-efd7232 e-transform e-transform elementor-widget elementor-widget-image"
+							data-id="efd7232" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://www.coingecko.com/" target="_blank">
+									<img loading="lazy" decoding="async" width="103" height="101"
+										src="images/coingecko.png" class="attachment-large size-large wp-image-1446"
+										alt> </a>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-2feac65 e-con-full copy-address e-transform e-transform e-flex e-con e-child"
+						data-id="2feac65" data-element_type="container"
+						data-settings="{&quot;_transform_rotateZ_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+						<div class="elementor-element elementor-element-068bf38 elementor-widget elementor-widget-image"
+							data-id="068bf38" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a href="https://firstledger.net/token/rE7V5dJeN8qeDdtCamEv9RXxZNnAc246XC/5841524C4F000000000000000000000000000000"
+									target="_blank">
+									<img loading="lazy" decoding="async" width="329" height="103"
+										src="images/ractangle_5.png" class="attachment-large size-large wp-image-1458"
+										alt srcset="images/ractangle_5.png 329w, images/ractangle_5-300x94.png 300w"
+										sizes="(max-width: 329px) 100vw, 329px"> </a>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-9f5fe17 add-stroke e-transform elementor-widget elementor-widget-heading"
+							data-id="9f5fe17" data-element_type="widget"
+							data-settings="{&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default"><a
+										href="https://firstledger.net/token/rE7V5dJeN8qeDdtCamEv9RXxZNnAc246XC/5841524C4F000000000000000000000000000000"
+										target="_blank">BUY $XARLO</a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class="footer-width-fixer">
+				<div data-elementor-type="wp-post" data-elementor-id="56" class="elementor elementor-56">
+					<div class="elementor-element elementor-element-7821aec e-con-full e-flex e-con e-parent"
+						data-id="7821aec" data-element_type="container"
+						data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-element elementor-element-8203991 e-con-full e-flex e-con e-child"
+							data-id="8203991" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-element elementor-element-d1072a2 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child"
+								data-id="d1072a2" data-element_type="container">
+								<div class="elementor-element elementor-element-be9e2d4 elementor-widget elementor-widget-text-editor"
+									data-id="be9e2d4" data-element_type="widget" data-widget_type="text-editor.default">
+									<div class="elementor-widget-container">
+										<p>© 2024 Xarlo. All rights reserved.</p>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-7292e2b e-con-full e-flex e-con e-child"
+								data-id="7292e2b" data-element_type="container">
+								<div class="elementor-element elementor-element-cfa87d4 e-transform elementor-widget elementor-widget-heading"
+									data-id="cfa87d4" data-element_type="widget"
+									data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+									data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default"><a
+												href="">xrplxarlo.monster</a></h2>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div><!-- #page -->
+	<script type="text/javascript">
+		const lazyloadRunObserver = () => {
+			const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+			const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						let lazyloadBackground = entry.target;
+						if (lazyloadBackground) {
+							lazyloadBackground.classList.add('e-lazyloaded');
+						}
+						lazyloadBackgroundObserver.unobserve(entry.target);
+					}
+				});
+			}, { rootMargin: '200px 0px 200px 0px' });
+			lazyloadBackgrounds.forEach((lazyloadBackground) => {
+				lazyloadBackgroundObserver.observe(lazyloadBackground);
+			});
+		};
+		const events = [
+			'DOMContentLoaded',
+			'elementor/lazyload/observe',
+		];
+		events.forEach((event) => {
+			document.addEventListener(event, lazyloadRunObserver);
+		});
+	</script>
+	<script src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
+	<!-- <script src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script> -->
+	<script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+	<script src="js/core.min.js" id="jquery-ui-core-js"></script>
+	<script id="elementor-frontend-js-before">
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": false }, "version": "3.25.6", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "e_nested_atomic_repeaters": true, "e_optimized_control_loading": true, "e_onboarding": true, "e_css_smooth_scroll": true, "hello-theme-header-footer": true, "home_screen": true, "nested-elements": true, "editor_v2": true, "e_element_cache": true, "link-in-bio": true, "floating-buttons": true }, "urls": { "assets": "https:\/\/\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/\/wp-admin\/admin-ajax.php", "uploadUrl": "http:\/\/\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "580075d29b" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "body_background_background": "classic", "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "hello_header_logo_type": "title", "hello_footer_logo_type": "logo" }, "post": { "id": 944, "title": "Xarlo", "excerpt": "Meet Xarlo, the dog with a pink asshole. Clinically insane? You bet. But that's what makes him a legend at flipping profits. ", "featuredImage": "https:\/\/\/wp-content\/uploads\/2024\/07\/c=xarlo_featured-1024x576.png" } };
+	</script>
+	<script src="js/frontend.min.js" id="elementor-frontend-js"></script>
+</body>
+
+</html>
